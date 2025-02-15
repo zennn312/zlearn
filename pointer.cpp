@@ -77,8 +77,8 @@ int main () {
         }
     }
 
-    cout << "Nilai Maximum : " << max << endl;
-    cout << "Nilai Minimum : " << min << endl;
+    cout << "Nilai Max : " << max << endl;
+    cout << "Nilai Min : " << min << endl;
 
     int jmlh = 0;
     for(i=0;i<9;i++){
