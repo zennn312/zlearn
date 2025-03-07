@@ -19,7 +19,7 @@ void bubblesort(lagu array[], int n){
     }
 }
 
-void printarray(lagu array[], int n){
+void tampillagu(lagu array[], int n){
     cout << "Playlist Lagu" << endl;
     cout << "===================" << endl;
     for(int a = 0; a < n; a++){
@@ -83,7 +83,7 @@ int main(){
                     cout << endl;
                 }
                 bubblesort(daftarlagu,n);
-                printarray(daftarlagu,n);
+                tampillagu(daftarlagu,n);
             break;
                 
             case 2 : {
